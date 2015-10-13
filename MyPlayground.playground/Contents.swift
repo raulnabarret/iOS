@@ -18,3 +18,5 @@ print("Esto es programación con " + demo)
 
 print("Esto es programación con \(demo)")
 
+print("Lista de deportes: \n\t1. Fútbol ⚽️  \n\t2. Basquetbol 🏀 \n\t3. Béisbol ⚾️")
+
