@@ -1,0 +1,7 @@
+* a007e23 Operadores unarios
+* dc7da5c Procedencia de operadores
+* 49c19ef Operadores básicos
+* bc5c275 Tipos de datos numéricos
+* 8f62c2f Cadenas y Salidas de escape
+* 0202363 Print
+* c115a13 Variables
