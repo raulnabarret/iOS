@@ -2,13 +2,19 @@
 
 import UIKit
 
-var str = "Hola"
+var str = "Hola "
 
-var nombre = "Raul"
+var nombre = "Raul "
 
-let resultado : String = str + nombre + "Nabarret"
+let resultado : String = str + nombre + "Nabarret "
 
 var demo = resultado
 
 demo = "Swift"
+
+print(resultado)
+
+print("Esto es programación con " + demo)
+
+print("Esto es programación con \(demo)")
 
