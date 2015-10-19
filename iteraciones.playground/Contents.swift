@@ -25,3 +25,9 @@ repeat{
     print(idiomas[indice])
     indice++
 }while indice < idiomas.count
+
+var nombres = ["Daniel", "Jorge", "Juan", "Pepe", "Luis", "Francisco"]
+
+for var i = 0; i < nombres.count; i++ {
+    print("\(i)\t\(nombres[i])")
+}
