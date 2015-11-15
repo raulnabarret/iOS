@@ -19,4 +19,4 @@ enum Ciudad: Int{
 var ciudad = Ciudad()
 ciudad.rawValue
 
-ciudad.CalculdarDistancia()
+ciudad.CalculdarDistancia
