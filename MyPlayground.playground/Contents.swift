@@ -2,21 +2,31 @@
 
 import UIKit
 
-var str = "Hola "
+var idiomas = ["ingles", "chino", "español"]
+idiomas.count
 
-var nombre = "Raul "
+idiomas += ["italiano", "frances"]
 
-let resultado : String = str + nombre + "Nabarret "
+idiomas[0]
+idiomas[idiomas.count-1]
 
-var demo = resultado
+idiomas.append("italiano")
+idiomas.removeAtIndex(idiomas.count-1)
+idiomas
+idiomas.insert("aleman", atIndex: 3)
 
-demo = "Swift"
+idiomas.sort()
 
-print(resultado)
 
-print("Esto es programación con " + demo)
+var languages = ["es" : "español", "en" : "inglés", "it" : "italiano", "de" : " "]
+languages
+languages["de"] = "alemán"
 
-print("Esto es programación con \(demo)")
+for id in idiomas {
+    print("Aprende " + id)
+}
 
-print("Lista de deportes: \n\t1. Fútbol ⚽️  \n\t2. Basquetbol 🏀 \n\t3. Béisbol ⚾️")
+for i in 0...10 {
+    print(i)
+}
 
