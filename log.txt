@@ -1,7 +1,149 @@
-* a007e23 Operadores unarios
-* dc7da5c Procedencia de operadores
-* 49c19ef Operadores básicos
-* bc5c275 Tipos de datos numéricos
-* 8f62c2f Cadenas y Salidas de escape
-* 0202363 Print
-* c115a13 Variables
+commit f2a5b2d941f34c737b6cc70b4063aa2edb4a76a5
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Sun Dec 13 15:13:49 2015 -0600
+
+    Cambios varios a playgrounds antiguos
+
+commit d93e15ef8c37c617feeba127a4ce48607c2bd6d1
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Sun Dec 13 15:13:19 2015 -0600
+
+    Semana 2 Tarea: Juego De Memoria
+
+commit 686da6f7e5b5b8bd6881fcc21df19da1d989d1e4
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Sun Nov 15 17:00:54 2015 -0600
+
+    Introduccion a estructuras con Swift
+
+commit 591b36131beb2b4d8117949862e0652cb011146e
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Sun Nov 15 16:33:36 2015 -0600
+
+    Funciones dentro de una enumeracion. Corrección
+
+commit 141a8e5e79ff5a20dbcc4996c9cea6d36e9415e9
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Sun Nov 15 16:32:02 2015 -0600
+
+    Funciones dentro de una enumeracion
+
+commit 561db0bfbf7154eede2d4b36dc90c46937c4cded
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Sun Oct 25 21:55:47 2015 -0600
+
+    Clase de Enumeraciones
+
+commit aa1971e844fcd78d673858161ae97fd4bfa8b7e7
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Sun Oct 25 20:51:46 2015 -0600
+
+    Clase de Opcionales
+
+commit d9c68a46de7222f7e8b614cf7d25da263cf05808
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Sun Oct 25 20:27:38 2015 -0600
+
+    Clase de Tuplas
+
+commit a2a3fadf30590d4e567d375550369218360f452a
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Sun Oct 25 19:59:27 2015 -0600
+
+    Clase de funciones y/o metodos, se tocan temas como operador flecha y return
+
+commit de4abc4b6684108f304072be7b4d229be1355e7f
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Sun Oct 18 20:25:20 2015 -0500
+
+    Operadores logicos
+
+commit 8c4a0a8f9b4bc0d636a04f7b843295dde55e805b
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Sun Oct 18 20:08:40 2015 -0500
+
+    Clase de switch
+
+commit cac212178f29e471eac43b410495947403377c80
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Sun Oct 18 19:58:10 2015 -0500
+
+    If/else if/else
+
+commit 745757a981281d9a8581ef29ef70bd1f552645b3
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Sun Oct 18 19:52:37 2015 -0500
+
+    For clasico
+
+commit 926ab3901da61ff8a38321a261fb83eb33ca0b93
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Sun Oct 18 19:48:49 2015 -0500
+
+    For each y while
+
+commit 85802944068cab8d72611e51e8ac2eaa51043cb3
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Sun Oct 18 19:07:32 2015 -0500
+
+    Clase de Diccionarios
+
+commit 69fbe8bdbb357a554eb664ad49f4839034a64005
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Sun Oct 18 18:35:27 2015 -0500
+
+    Clase de métodos
+
+commit 9ea0df1c1ad7805ba86ca700d572a9dc1eaa40e6
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Sun Oct 18 18:29:57 2015 -0500
+
+    Clase de arreglos
+
+commit a71d46f24abe76bf7fcfe6182295e7bd65de3b2f
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Mon Oct 12 21:39:43 2015 -0500
+
+    Log de commits
+
+commit a007e236925d9826d828e3600cfa6a675046a236
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Mon Oct 12 21:16:41 2015 -0500
+
+    Operadores unarios
+
+commit dc7da5cc22d00bcf4d7208cb7aa1062f6219f9e5
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Mon Oct 12 21:10:09 2015 -0500
+
+    Procedencia de operadores
+
+commit 49c19ef9cecf564683391dde2561f2d386dba34b
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Mon Oct 12 21:05:38 2015 -0500
+
+    Operadores básicos
+
+commit bc5c275ef0022820869958cc21643282322f6999
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Mon Oct 12 20:57:23 2015 -0500
+
+    Tipos de datos numéricos
+
+commit 8f62c2f73bfec8fabd5915af7454e79ef7586157
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Mon Oct 12 20:49:27 2015 -0500
+
+    Cadenas y Salidas de escape
+
+commit 02023633ef7647f16dc8ef4d32fef16062231b4c
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Mon Oct 12 20:43:35 2015 -0500
+
+    Print
+
+commit c115a13a533f68035969942e8f8861d4cc1cedfc
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Mon Oct 12 20:38:21 2015 -0500
+
+    Variables
