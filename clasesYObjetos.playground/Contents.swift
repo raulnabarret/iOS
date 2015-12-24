@@ -54,9 +54,16 @@ enum Caracteristicas {
 
 class Sodas : Lata {
     
+    let serie : Int = 1234
+    let carril : Int = 2
+    
     var caracateristica = Caracteristicas()
     
-    override init(marca : String, tipo : String, precio : Double) {
+    var numeroDeSerie : Int {
+        return serie + carril * carril
+    }
+    
+    override init(marca : String, tipo : String, precio : Double) { //Esto es una propiedad calculada
         super.init(marca: marca, tipo: tipo, precio: precio)
     }
     
@@ -75,6 +82,8 @@ limonada.precio
 limonada.tipo
 
 limonada.calcularDescuento(50)
+
+limonada.numeroDeSerie
 
 
 
