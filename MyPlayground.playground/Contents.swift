@@ -163,6 +163,17 @@ enum ciudadesEnum : Int {
     case Monterrey = 300
     case McAllen = 800
     
+    func calcularDistancias () -> Int {
+        
+        let diferencia = ciudadesEnum.Tampico.rawValue - self.rawValue
+        return diferencia
+        
+    }
+    
+    init() {
+        self = .Monterrey
+    }
+    
 
 }
 
@@ -170,15 +181,9 @@ ciudadesEnum.Tampico
 ciudadesEnum.Monterrey
 ciudadesEnum.McAllen
 
-func calcularDistancias (ciudadRaw : ciudadesEnum) -> Int {
-
-        let diferencia = ciudadesEnum.Tampico.rawValue - ciudadRaw.rawValue
-        return diferencia
-
-}
-
-calcularDistancias(ciudadesEnum.McAllen)
-
+var ciudad = ciudadesEnum()
+ciudad.rawValue
+ciudad.calcularDistancias()
 
 
 
