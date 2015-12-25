@@ -3,20 +3,25 @@
 import UIKit
 
 
-enum Ciudad: Int{
-    case Cancun = 450, Guadalajara = 10, DF = 78, Monterrey = 512, Merida
+
+enum Ciudad : Int {
+
+    case Cancun = 1200
+    case Guadalajara = 800
+    case DF = 700
+    case Monterrey = 550
     
-    func CalculdarDistancia() ->Int{
+    func calcularDistancia( ) ->Int {
+        
         return Ciudad.Cancun.rawValue - self.rawValue
     }
     
-    init(){
-        self = .Cancun
+    init(ciudadInicial : Ciudad) {
+        
+        self = ciudadInicial
     }
-    
 }
 
-var ciudad = Ciudad()
-ciudad.rawValue
+var ciudad = Ciudad.init(ciudadInicial: .DF)
 
-ciudad.CalculdarDistancia()
+ciudad.calcularDistancia( )
