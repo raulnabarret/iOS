@@ -1,7 +1,7 @@
 //: Playground - noun: a place where people can play
 
 import UIKit
-
+/*
 struct Producto {
     
     let marca : String
@@ -16,80 +16,19 @@ struct Producto {
 var telefono = Producto(marca: "Cisco", precio: 5300)
 telefono.marca
 telefono.precio
+*/
 
-class Lata {
-
+class Producto {
+    
     let marca : String
-    var tipo : String
-    var precio : Double
+    var precio : Double = 0.0
     
-    init(marca : String, tipo : String, precio : Double){
-    
-        self.marca = "Herdez"
-        self.tipo = tipo
+    init(marca : String, precio : Double) {
+        self.marca = marca
         self.precio = precio
     }
-    
-    func calcularDescuento(descuento : Double) ->Double{
-        
-        precio = precio - (precio * descuento / 100)
-        return precio
-    }
 }
 
-var frijoles = Lata(marca: "Herdez", tipo: "Frijoles", precio: 15.00)
-frijoles.marca
-frijoles.precio
-frijoles.tipo
-
-frijoles.calcularDescuento(30)
-
-enum Caracteristicas {
-    case Grande, Mediana, Pequeña
-    
-    init() {
-        self = .Mediana
-    }
-}
-
-class Sodas : Lata {
-    
-    var serie : Int = 1234
-    var carril : Int = 2
-    
-    var caracateristica = Caracteristicas()
-    
-    var numeroDeSerie : Int { //Esto es una propiedad calculada
-        get {
-            return serie + carril * carril
-        }
-        
-        set {
-            serie = newValue
-            carril = newValue
-        }
-    
-        override init(marca : String, tipo : String, precio : Double) {
-        super.init(marca: marca, tipo: tipo, precio: precio)
-    }
-    
-    override func calcularDescuento(descuento : Double) ->Double{
-        
-        precio = precio - (precio * descuento / 100)
-        return precio
-    }
-}
-
-var limonada = Sodas(marca: " ", tipo: "limonada", precio: 9.00)
-
-limonada.caracateristica
-limonada.marca
-limonada.precio
-limonada.tipo
-
-limonada.calcularDescuento(50)
-
-limonada.numeroDeSerie
-
+var telefono = Producto(marca: "iPhone 6+", precio: 400)
 
 
