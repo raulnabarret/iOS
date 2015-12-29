@@ -1,3 +1,69 @@
+commit 90054c82bacba3f7d2122e5bc7e6d3c014585769
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Fri Dec 25 14:52:14 2015 -0600
+
+    Consulta a clases anteriores para elaboración de Tarea Semana 4
+
+commit 53979b15e3fe54e432bd295f67fc55a38ece6251
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Fri Dec 25 14:51:29 2015 -0600
+
+    Semana 4 Tarea: Velocimentro Digital de Automovil
+
+commit ea027f9c93dfedb510173bf538c49c3feaad6791
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Fri Dec 25 12:01:44 2015 -0600
+
+    Tarea Semana 4: Velocímetro digital de un auto. Declaración de la enumeración y su inicializador
+
+commit 95d5d132dda7517303477c4b78214700c2ae5667
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Fri Dec 25 12:00:36 2015 -0600
+
+    Clase de Clases y Objetos concluida
+
+commit d338dc2d8a9f5842b100174dd5e79699c7d50e7d
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Fri Dec 25 11:59:17 2015 -0600
+
+    Correción en playground de la clase de Funciones en una Enumeracion
+
+commit 428f7a21c289817b70f6f8efbb65b08f3a48cc54
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Wed Dec 23 22:11:05 2015 -0600
+
+    Set y Get
+
+commit 8b9e73ca87e65418041f087f739326fd33ced1ac
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Wed Dec 23 21:58:28 2015 -0600
+
+    Propiedades Calculadas
+
+commit bf4944c75a786e9b6f82976ab0ee5f52a417bbd9
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Wed Dec 23 21:44:34 2015 -0600
+
+    Repaso de temas
+
+commit 448fae059d453250f7eec5eaf2bbe0b3123d0796
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Wed Dec 23 21:44:07 2015 -0600
+
+    Clase de Clases, Objetos y Herencia
+
+commit 701cc168f79c0f42f92f3503fac9bd7efc06bd7e
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Wed Dec 23 21:42:52 2015 -0600
+
+    Repaso
+
+commit 8a78ade4b96c6e1bdb23561d1532196ad9487174
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Fri Dec 18 18:31:46 2015 -0600
+
+    Segundo curso
+
 commit f2a5b2d941f34c737b6cc70b4063aa2edb4a76a5
 Author: raulnabarret <raulnabarret@gmail.com>
 Date:   Sun Dec 13 15:13:49 2015 -0600
