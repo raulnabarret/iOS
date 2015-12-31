@@ -1,3 +1,15 @@
+commit 153503fe263b9ed13b7b306b1bcf31cd11752f3a
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Mon Dec 28 18:18:03 2015 -0600
+
+    Primera aplicación de iPhone con XCode
+
+commit 2826d14791e2e9b886e0d6f80d026e246731c2b6
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Mon Dec 28 18:17:34 2015 -0600
+
+    Bitacora de commits al 28 de diciembre de 2015
+
 commit 90054c82bacba3f7d2122e5bc7e6d3c014585769
 Author: raulnabarret <raulnabarret@gmail.com>
 Date:   Fri Dec 25 14:52:14 2015 -0600
