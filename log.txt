@@ -1,3 +1,33 @@
+commit e84a4a771c15793f368a38833a0079d6ab369b27
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Fri Jan 1 11:10:47 2016 -0600
+
+    Cerrar teclado cuando no se está utilizando
+
+commit cae4e158a37d5692980317ff8ce60440dda19dfe
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Fri Jan 1 10:58:09 2016 -0600
+
+    Metodo para calcular IMC
+
+commit 10704c21625c886e7053c8ed12849e6dd7eea781
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Thu Dec 31 21:46:08 2015 -0600
+
+    Curso Interfaz de Usuario en iOS
+
+commit 8b25e295aa5d22d43ad4e5f07df81d6ba4b87f57
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Thu Dec 31 01:35:34 2015 -0600
+
+    Bitácora de commits al 31 de diciembre de 2015
+
+commit 9f9c214acb594298dc8728a5386c30eb57a20e47
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Thu Dec 31 01:34:50 2015 -0600
+
+    Semana 5 Tarea: Hamburguesas en el mundo
+
 commit 153503fe263b9ed13b7b306b1bcf31cd11752f3a
 Author: raulnabarret <raulnabarret@gmail.com>
 Date:   Mon Dec 28 18:18:03 2015 -0600
