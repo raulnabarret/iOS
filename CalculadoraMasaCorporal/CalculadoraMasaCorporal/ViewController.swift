@@ -32,6 +32,12 @@ class ViewController: UIViewController, UITextFieldDelegate {
         sender.resignFirstResponder()
         
     }
+    
+    @IBAction func backgroundTap(sender : UIControl) {
+    
+        peso.resignFirstResponder()
+        estatura.resignFirstResponder()
+    }
 
     @IBAction func calcularIMC(sender: AnyObject) {
         var IMC : Double
