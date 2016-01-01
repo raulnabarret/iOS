@@ -17,41 +17,70 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Estatura" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fwx-eF-CG0">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Peso" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jff-n2-Sxb">
+                                <rect key="frame" x="281" y="200" width="38" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Estatura" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fwx-eF-CG0">
                                 <rect key="frame" x="268" y="298" width="64" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Calculadora de IMC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jI9-jh-6r7">
-                                <rect key="frame" x="225" y="54" width="150" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VE4-NW-5sK">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VE4-NW-5sK">
                                 <rect key="frame" x="225" y="229" width="149" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="textFieldDoneWriting:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="CW7-sd-kcf"/>
+                                </connections>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JMf-IO-hxH">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JMf-IO-hxH">
                                 <rect key="frame" x="225" y="327" width="149" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="textFieldDoneWriting:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="Z0J-mv-ghM"/>
+                                </connections>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y27-k1-J7L">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y27-k1-J7L">
                                 <rect key="frame" x="256" y="398" width="87" height="30"/>
                                 <state key="normal" title="Calcular IMC"/>
+                                <connections>
+                                    <action selector="calcularIMC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pd8-bp-Hqz"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Peso" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jff-n2-Sxb">
-                                <rect key="frame" x="281" y="200" width="38" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calculadora de IMC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jI9-jh-6r7">
+                                <rect key="frame" x="225" y="66" width="150" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="VE4-NW-5sK" firstAttribute="top" secondItem="jff-n2-Sxb" secondAttribute="bottom" constant="8" symbolic="YES" id="4Co-nd-vbn"/>
+                            <constraint firstItem="jI9-jh-6r7" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="46" id="6yl-Y1-zdV"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Y27-k1-J7L" secondAttribute="bottom" constant="172" id="EPR-eR-sPj"/>
+                            <constraint firstItem="Fwx-eF-CG0" firstAttribute="top" secondItem="VE4-NW-5sK" secondAttribute="bottom" constant="39" id="NDu-e7-DCt"/>
+                            <constraint firstItem="jI9-jh-6r7" firstAttribute="leading" secondItem="VE4-NW-5sK" secondAttribute="leading" id="P9L-TN-Gcx"/>
+                            <constraint firstItem="Fwx-eF-CG0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Y2O-wi-WXl"/>
+                            <constraint firstItem="jI9-jh-6r7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aZl-Ee-OAB"/>
+                            <constraint firstItem="Y27-k1-J7L" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="d9R-um-OL6"/>
+                            <constraint firstItem="JMf-IO-hxH" firstAttribute="top" secondItem="Fwx-eF-CG0" secondAttribute="bottom" constant="8" symbolic="YES" id="dCE-D1-zze"/>
+                            <constraint firstItem="JMf-IO-hxH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hDR-P1-ezD"/>
+                            <constraint firstItem="VE4-NW-5sK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="n4Z-48-XCA"/>
+                            <constraint firstItem="Y27-k1-J7L" firstAttribute="top" secondItem="JMf-IO-hxH" secondAttribute="bottom" constant="41" id="pLr-SJ-buf"/>
+                            <constraint firstItem="jff-n2-Sxb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="u7t-Bu-FDZ"/>
+                            <constraint firstItem="VE4-NW-5sK" firstAttribute="leading" secondItem="JMf-IO-hxH" secondAttribute="leading" id="wbh-C4-NLx"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="estatura" destination="JMf-IO-hxH" id="L2B-pC-W1r"/>
+                        <outlet property="peso" destination="VE4-NW-5sK" id="raN-D1-r4f"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
