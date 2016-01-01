@@ -9,6 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController, UITextFieldDelegate {
+   
+    @IBOutlet weak var scroll: UIScrollView!
 
     @IBOutlet weak var peso: UITextField!
     
@@ -27,6 +29,18 @@ class ViewController: UIViewController, UITextFieldDelegate {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func textFieldDidBeginEditing(textField: UITextField) {
+        
+        var punto:CGPoint
+        punto = CGPointMake(0, textField.frame.origin.y-50)
+        self.scroll.setContentOffset(punto, animated: true)
+    
+    }
+    
+    @IBAction func textFieldDidEndEditing(textField: UITextField) {
+        
+        self.scroll.setContentOffset(CGPointZero, animated: true)
+    }
     @IBAction func textFieldDoneWriting(sender: UITextField) {
     
         sender.resignFirstResponder()
