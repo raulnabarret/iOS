@@ -37,7 +37,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     }
     
-    @IBAction func textFieldDidEndEditing(textField: UITextField) {
+    @IBAction func textFieldDidEndEditing(textField: UITextField){
         
         self.scroll.setContentOffset(CGPointZero, animated: true)
     }
@@ -51,9 +51,26 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
         peso.resignFirstResponder()
         estatura.resignFirstResponder()
+        
     }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        let resultado = imc()
+        let sigVista = segue.destinationViewController as! VistaResultados
+        sigVista.indice = resultado
+        
+    }
+    
 
     @IBAction func calcularIMC(sender: AnyObject) {
+        imc()
+    }
+    
+    
+
+    func imc() -> Double{
+        
         var IMC : Double
         
         let pesoLocal : Double?
@@ -65,7 +82,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         IMC = pesoLocal!/(estaturaLocal*estaturaLocal)
         print("Tu IMC es \(IMC)")
         
+        return IMC
     }
-
 }
 
