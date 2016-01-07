@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="9515"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="CalculadoraMasaCorporalWatch_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label alignment="right" text="0" textAlignment="center" id="hsT-3v-ZuT"/>
+                        <slider width="1" alignment="left" value="1" maximum="200" steps="200" id="DY3-4Y-jdj">
+                            <connections>
+                                <action selector="nuevoValorPeso:" destination="AgC-eL-Hgc" id="R8D-vJ-dnq"/>
+                            </connections>
+                        </slider>
+                        <label alignment="right" text="50" textAlignment="center" id="gIA-2G-Sml"/>
+                        <slider width="1" alignment="left" value="50" minimum="50" maximum="230" steps="180" id="6tH-bP-cWQ">
+                            <connections>
+                                <action selector="nuevoValorEstatura:" destination="AgC-eL-Hgc" id="jEb-5p-JWz"/>
+                            </connections>
+                        </slider>
+                        <button width="1" alignment="left" title="Calcular IMC" id="cX0-cF-Llv">
+                            <connections>
+                                <action selector="calcularIMC" destination="AgC-eL-Hgc" id="oAa-5H-gPm"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="valorEstatura" destination="gIA-2G-Sml" id="doJ-Dt-BQu"/>
+                        <outlet property="valorPeso" destination="hsT-3v-ZuT" id="pAd-EO-Xh5"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+        <!--IdentificadorValor-->
+        <scene sceneID="mWI-Aa-iC2">
+            <objects>
+                <controller identifier="IdentificadorValor" id="rkF-k4-c3r" customClass="vistaDetalleInterfaceController" customModule="CalculadoraMasaCorporalWatch_WatchKit_Extension">
+                    <items>
+                        <label width="1" alignment="center" text="IMC" textAlignment="center" id="SI7-6L-QTu"/>
+                        <label width="1" alignment="center" text="0" textAlignment="center" id="dAa-Hm-iwx"/>
+                    </items>
+                    <connections>
+                        <outlet property="etiquetaResultado" destination="dAa-Hm-iwx" id="bbu-1i-JxD"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="405" y="329"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="CalculadoraMasaCorporalWatch_WatchKit_App" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="643"/>
+        </scene>
+    </scenes>
+</document>

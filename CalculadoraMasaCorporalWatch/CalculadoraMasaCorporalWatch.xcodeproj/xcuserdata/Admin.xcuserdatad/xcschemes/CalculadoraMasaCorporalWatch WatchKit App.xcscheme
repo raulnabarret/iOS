@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0720"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8465C9CF1C3E242B006BAC80"
+               BuildableName = "CalculadoraMasaCorporalWatch WatchKit App.app"
+               BlueprintName = "CalculadoraMasaCorporalWatch WatchKit App"
+               ReferencedContainer = "container:CalculadoraMasaCorporalWatch.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8465C9DE1C3E242B006BAC80"
+               BuildableName = "CalculadoraMasaCorporalWatch WatchKit Extension.appex"
+               BlueprintName = "CalculadoraMasaCorporalWatch WatchKit Extension"
+               ReferencedContainer = "container:CalculadoraMasaCorporalWatch.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8465C9BD1C3E242A006BAC80"
+               BuildableName = "CalculadoraMasaCorporalWatch.app"
+               BlueprintName = "CalculadoraMasaCorporalWatch"
+               ReferencedContainer = "container:CalculadoraMasaCorporalWatch.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8465C9CF1C3E242B006BAC80"
+            BuildableName = "CalculadoraMasaCorporalWatch WatchKit App.app"
+            BlueprintName = "CalculadoraMasaCorporalWatch WatchKit App"
+            ReferencedContainer = "container:CalculadoraMasaCorporalWatch.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/CalculadoraMasaCorporalWatch WatchKit App">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8465C9CF1C3E242B006BAC80"
+            BuildableName = "CalculadoraMasaCorporalWatch WatchKit App.app"
+            BlueprintName = "CalculadoraMasaCorporalWatch WatchKit App"
+            ReferencedContainer = "container:CalculadoraMasaCorporalWatch.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8465C9CF1C3E242B006BAC80"
+            BuildableName = "CalculadoraMasaCorporalWatch WatchKit App.app"
+            BlueprintName = "CalculadoraMasaCorporalWatch WatchKit App"
+            ReferencedContainer = "container:CalculadoraMasaCorporalWatch.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/CalculadoraMasaCorporalWatch WatchKit App">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8465C9CF1C3E242B006BAC80"
+            BuildableName = "CalculadoraMasaCorporalWatch WatchKit App.app"
+            BlueprintName = "CalculadoraMasaCorporalWatch WatchKit App"
+            ReferencedContainer = "container:CalculadoraMasaCorporalWatch.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8465C9CF1C3E242B006BAC80"
+            BuildableName = "CalculadoraMasaCorporalWatch WatchKit App.app"
+            BlueprintName = "CalculadoraMasaCorporalWatch WatchKit App"
+            ReferencedContainer = "container:CalculadoraMasaCorporalWatch.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>
