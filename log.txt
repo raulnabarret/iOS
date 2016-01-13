@@ -1,3 +1,45 @@
+commit df9609cc65aa7fa7e3b472ba57b8f217c95592e7
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Wed Jan 13 17:19:03 2016 -0600
+
+    Tarea Semana 2 del curso Interfaz de usuario en iOS
+
+commit 5f6efb2d0be229d8676415e9619f5d89bff22ce4
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Wed Jan 6 23:59:50 2016 -0600
+
+    Calculadora de IMC en Apple Watch
+
+commit ecb6f6fa2a82b51aeb2e9dfc8c16ee8b8015a495
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Wed Jan 6 22:40:08 2016 -0600
+
+    Hola Mundo en Apple Watch
+
+commit 63293aa977136736a18784cb2b000a3a71f2f99e
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Wed Jan 6 22:08:08 2016 -0600
+
+    Aplicacion en modo de pestaás
+
+commit 0ec4f0ed79e8e77f66e669658cacae63a99000ab
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Wed Jan 6 20:32:47 2016 -0600
+
+    Calculadora de IMC terminada Semana 2 Curso de Interfaz de usuario en iOS
+
+commit ddaa43ad3ed0038865107997d072dfd21f39bb56
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Fri Jan 1 12:02:46 2016 -0600
+
+    Scroll View en los text fields e implementacion de teclado Decimal Pad
+
+commit 46f9e57679bb48901b97aec8fd045ceec01b2372
+Author: raulnabarret <raulnabarret@gmail.com>
+Date:   Fri Jan 1 12:02:04 2016 -0600
+
+    Bitacora de commits al 01 de enero de 2016
+
 commit e84a4a771c15793f368a38833a0079d6ab369b27
 Author: raulnabarret <raulnabarret@gmail.com>
 Date:   Fri Jan 1 11:10:47 2016 -0600
