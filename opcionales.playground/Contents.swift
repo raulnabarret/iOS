@@ -27,7 +27,7 @@ func profesores (id: String) -> String? {
 if let nombre = profesores("07") {
     nombre
 } else {
-    print("No hay profesor")
+    print("No hay professor")
 }
 
 let nombre2 = profesores("08")
@@ -35,6 +35,6 @@ let nombre2 = profesores("08")
 if nombre2 != nil {
     nombre2
 } else {
-    print("No hay profesor")
+    print("No hay professor")
 }
 
