@@ -107,7 +107,7 @@ struct Frases {
         "Ámate a ti mismo. Es importante mantenerse positivo porque la belleza viene del interior al exterior.-Jenn Proske.",
         "Una persona es grande por sus grandes cualidades, no por la ausencia de fallos.-Autor desconocido.",
         "No dejes que la gente te falte el respeto. Rodeate de gente positiva.-Cuba Gooding, Jr.",
-        "El pasado no tiene poder sobre el momento presente.-Eckhart Tolle.",
+        "El pasado no tiene poder sobre el memento presente.-Eckhart Tolle.",
         "Cuando hago el bien, me siento bien. Cuando hago el mal, me siento mal. Esa es mi religión.-Abraham Lincoln.",
         "La mejor forma de ganar autoestima es hacer lo que tememos.-Autor desconocido.",
         "Tenemos la habilidad para decidir en qué pensamientos vamos a detenernos.-David DeNotaris.",
